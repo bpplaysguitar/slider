@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="levels">
+    <img
+      src="./images/1.jpg" 
+      height="175px"
+      id="levelOne"
+      class="animated rubberBand"
+      alt="Level Tiers">
+    <img
+      src="./images/2.jpg"
+      id="levelTwo"
+      height="175px"
+      class="animated rubberBand hidden"
+      alt="Level Tiers">
+    <img
+      src="./images/3.jpg"
+      id="levelThree"
+      height="175px"
+      class="animated rubberBand hidden"
+      alt="Level Tiers">
+  </div>
+  <div class="slidecontainer">
+    <input 
+    type="range"
+    min="1"
+    max="100"
+    value="1"
+    class="slider"
+    id="myRange"
+    >
+  </div>
+  <script src="animate.js"></script>
+</body>
+</html>
